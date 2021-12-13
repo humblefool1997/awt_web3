@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Fourier series</title>
+  <link rel="stylesheet" href="./style-fs.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div>
+		<h3>Fourier series</h3>
+		<select name="Waveform" id="Waveform">
+			<option value="square_w">Square Wave</option>
+			<option value="sine_w">Sine Wave </option>
+			<option value="Sawtooth_W">Sawtooth Wave</option>
+		  </select>
+		<a href="sq-dist.html">Square Function</a>
+		<a href="fs-dist.html">Sawtooth Function</a>
+		<a href="index.html">Sine Function</a>
+		<canvas width="512" height="256"></canvas>
+		<div>
+				<span>Frequency</span>
+				<input frequency type="range" min="-5" max="-3" value="-3.5" step="0.0001">
+		</div>
+		<div>
+				<span>Order</span>
+				<input order type="range" min="0" max="16" value="4" step="1">
+		</div>
+		<div>
+				<span>Waveform</span>
+				<form id="waveform">
+						<label>Square
+								<input type="radio" name="waveform" value="square" checked>
+						</label>
+						<label>Sawtooth
+								<input type="radio" name="waveform" value="sawtooth">
+						</label>
+				</form>
+		</div>
+</div>
+<!-- partial -->
+  <script  src="./script-fs.js"></script>
+
+</body>
+</html>
