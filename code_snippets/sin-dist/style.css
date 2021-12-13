@@ -1,0 +1,42 @@
+html {
+	font-family: arial;
+  background: #202020;
+  color: white;
+}
+
+canvas {
+	border: 2px solid black;
+}
+
+h1 {
+  font-size: 25px;
+  color: #e0e0e0;
+}
+span {
+  width: 130px;
+  display: inline-block;
+}
+
+.inputBar {
+  color: green;
+}
+
+.outputBar {
+  color: red;
+}
+
+.simpleBar {
+  color: #6060ff;
+}
+
+/*html:before {
+	z-index: 1000;
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(255, 255, 255, 0.90);
+}*/
